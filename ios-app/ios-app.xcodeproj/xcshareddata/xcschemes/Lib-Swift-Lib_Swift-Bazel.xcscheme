@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7581867A8BFDF54800000000"
-               BuildableName = "ios-app.app"
-               BlueprintName = "ios-app-Bazel"
+               BlueprintIdentifier = "7581867AD47ECCB200000000"
+               BuildableName = "libLib-Swift-Lib_Swift.a"
+               BlueprintName = "Lib-Swift-Lib_Swift-Bazel"
                ReferencedContainer = "container:ios-app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,16 +40,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7581867A8BFDF54800000000"
-            BuildableName = "ios-app.app"
-            BlueprintName = "ios-app-Bazel"
+            BlueprintIdentifier = "7581867AD47ECCB200000000"
+            BuildableName = "libLib-Swift-Lib_Swift.a"
+            BlueprintName = "Lib-Swift-Lib_Swift-Bazel"
             ReferencedContainer = "container:ios-app.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "__TulsiTestRunner_Release"
@@ -57,16 +56,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7581867A8BFDF54800000000"
-            BuildableName = "ios-app.app"
-            BlueprintName = "ios-app-Bazel"
+            BlueprintIdentifier = "7581867AD47ECCB200000000"
+            BuildableName = "libLib-Swift-Lib_Swift.a"
+            BlueprintName = "Lib-Swift-Lib_Swift-Bazel"
             ReferencedContainer = "container:ios-app.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

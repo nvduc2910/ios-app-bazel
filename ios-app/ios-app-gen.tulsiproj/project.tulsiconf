@@ -5,7 +5,8 @@
     }
   },
   "packages" : [
-    "ios-app"
+    "ios-app",
+    "Lib-Swift"
   ],
   "projectName" : "ios-app",
   "workspaceRoot" : "../.."

@@ -9,6 +9,7 @@ swift_library(
     data = glob([
         "**/*.storyboard",
     ]),
+    deps = ["//Lib-Swift:Lib_Swift"]
 )
 
 ios_application(

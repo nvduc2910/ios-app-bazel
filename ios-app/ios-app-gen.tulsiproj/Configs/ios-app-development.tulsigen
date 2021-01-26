@@ -3,6 +3,8 @@
     "ios-app/BUILD"
   ],
   "buildTargets" : [
+    "//Lib-Swift:Lib_Swift",
+    "//ios-app:Sources",
     "//ios-app:ios-app"
   ],
   "optionSet" : {
@@ -54,6 +56,8 @@
   },
   "projectName" : "ios-app",
   "sourceFilters" : [
+    "Lib-Swift",
+    "Lib-Swift/Sources",
     "ios-app/...",
     "ios-app/Base.lproj"
   ]

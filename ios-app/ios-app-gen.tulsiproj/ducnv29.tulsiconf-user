@@ -4,7 +4,7 @@
       "p" : "/usr/local/bin/bazel"
     },
     "WorkspaceRootPath" : {
-      "p" : "/Users/ducnv29/Documents/ios-app"
+      "p" : "/Users/ducnv29/Documents/ios-app-bazel"
     }
   }
 }

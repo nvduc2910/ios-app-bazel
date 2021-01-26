@@ -7,156 +7,165 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFAD0EA207E4C70100000000 /* ViewController.swift in ios-app */ = {isa = PBXBuildFile; fileRef = CFE03E2B07E4C70100000000 /* ViewController.swift */; };
-		BFAD0EA2585B4A2300000000 /* AppDelegate.swift in ios-app */ = {isa = PBXBuildFile; fileRef = CFE03E2B585B4A2300000000 /* AppDelegate.swift */; };
+		89686175A0F19A4500000000 /* StringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7629EEC9A0F19A4500000000 /* StringProvider.swift */; };
+		89686175C5BADD9C00000000 /* ViewController.swift in ios-app */ = {isa = PBXBuildFile; fileRef = 7629EEC9C5BADD9C00000000 /* ViewController.swift */; };
+		89686175ED1D6DF200000000 /* AppDelegate.swift in ios-app */ = {isa = PBXBuildFile; fileRef = 7629EEC9ED1D6DF200000000 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F86D6E613AAD5CF300000000 /* PBXContainerItemProxy */ = {
+		9FA3ACEAA124369F00000000 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 386662C7320A997600000000 /* Project object */;
+			containerPortal = 79A29783B54198EB00000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 96CE2A943AAD5CF200000000;
+			remoteGlobalIDString = 7581867AA124369E00000000;
+		};
+		9FA3ACEACC1DA3DD00000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A29783B54198EB00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB3906B5CC1DA3DC00000000;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CFE03E2B07E4C70100000000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "ios-app/ViewController.swift"; sourceTree = "<group>"; };
-		CFE03E2B22BC6E1500000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/bazel-tulsi-includes/bazel/codegen/ios-app/ios-app-intermediates/Info.plist"; sourceTree = "<group>"; };
-		CFE03E2B23BBB51E00000000 /* ios-app-Bazel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "ios-app-Bazel.app"; path = "ios-app-Bazel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE03E2B585B4A2300000000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "ios-app/AppDelegate.swift"; sourceTree = "<group>"; };
-		CFE03E2B9A9F494B00000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "ios-app/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
-		CFE03E2BBAFCEC4600000000 /* Sources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Sources.framework; path = Sources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE03E2BD7A2F12200000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "ios-app/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		CFE03E2BEB00048800000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = "ios-app/BUILD"; sourceTree = "<group>"; };
-		CFE03E2BFE44A2A600000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "ios-app/Info.plist"; sourceTree = "<group>"; };
+		7629EEC90911E77F00000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = "Lib-Swift/BUILD"; sourceTree = "<group>"; };
+		7629EEC90FC35E6C00000000 /* Sources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Sources.framework; path = Sources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EEC912718D1F00000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "ios-app/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		7629EEC91EF3F29E00000000 /* libLib-Swift-Lib_Swift-Bazel.lo */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = "libLib-Swift-Lib_Swift-Bazel.lo"; path = "libLib-Swift-Lib_Swift-Bazel.lo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EEC91FDD4E7A00000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = "ios-app/BUILD"; sourceTree = "<group>"; };
+		7629EEC92B41823700000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "ios-app/Info.plist"; sourceTree = "<group>"; };
+		7629EEC92F81659C00000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/bazel-tulsi-includes/bazel/codegen/ios-app/ios-app-intermediates/Info.plist"; sourceTree = "<group>"; };
+		7629EEC93BBA380600000000 /* ios-app-Bazel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "ios-app-Bazel.app"; path = "ios-app-Bazel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EEC96669FB0200000000 /* libios-app-Sources-Bazel.lo */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = "libios-app-Sources-Bazel.lo"; path = "libios-app-Sources-Bazel.lo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EEC97828617A00000000 /* Lib_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Lib_Swift.framework; path = Lib_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EEC99CD2695C00000000 /* libos-app-Sources-Bazel.lo */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = "libos-app-Sources-Bazel.lo"; path = "libos-app-Sources-Bazel.lo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EEC9A0F19A4500000000 /* StringProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringProvider.swift; path = "Lib-Swift/Sources/StringProvider.swift"; sourceTree = "<group>"; };
+		7629EEC9A38A278C00000000 /* libib-Swift-Lib_Swift-Bazel.lo */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = "libib-Swift-Lib_Swift-Bazel.lo"; path = "libib-Swift-Lib_Swift-Bazel.lo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EEC9C2B69E6400000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "ios-app/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		7629EEC9C5BADD9C00000000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "ios-app/ViewController.swift"; sourceTree = "<group>"; };
+		7629EEC9ED1D6DF200000000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "ios-app/AppDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		AC16C09F320A997600000000 /* ios-app */ = {
+		1A5C3656039B49A600000000 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC16C09F73CFCF7100000000 /* ios-app-intermediates */,
+				1A5C365682405A4800000000 /* Indexer */,
+				1A5C36567793DDE400000000 /* bazel-tulsi-includes */,
+				7629EEC93BBA380600000000 /* ios-app-Bazel.app */,
+				7629EEC91EF3F29E00000000 /* libLib-Swift-Lib_Swift-Bazel.lo */,
+				7629EEC9A38A278C00000000 /* libib-Swift-Lib_Swift-Bazel.lo */,
+				7629EEC96669FB0200000000 /* libios-app-Sources-Bazel.lo */,
+				7629EEC99CD2695C00000000 /* libos-app-Sources-Bazel.lo */,
 			);
-			name = "ios-app";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		AC16C09F320A997600000001 /* ios-app */ = {
+		1A5C3656088B620000000000 /* codegen */ = {
 			isa = PBXGroup;
 			children = (
-				CFE03E2B585B4A2300000000 /* AppDelegate.swift */,
-				CFE03E2BEB00048800000000 /* BUILD */,
-				AC16C09F71C4FF8900000000 /* Base.lproj */,
-				CFE03E2BFE44A2A600000000 /* Info.plist */,
-				CFE03E2B07E4C70100000000 /* ViewController.swift */,
-			);
-			name = "ios-app";
-			sourceTree = "<group>";
-		};
-		AC16C09F71C4FF8900000000 /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				CFE03E2B9A9F494B00000000 /* LaunchScreen.storyboard */,
-				CFE03E2BD7A2F12200000000 /* Main.storyboard */,
-			);
-			name = Base.lproj;
-			sourceTree = "<group>";
-		};
-		AC16C09F73CFCF7100000000 /* ios-app-intermediates */ = {
-			isa = PBXGroup;
-			children = (
-				CFE03E2B22BC6E1500000000 /* Info.plist */,
-			);
-			name = "ios-app-intermediates";
-			sourceTree = "<group>";
-		};
-		AC16C09F99DBCDB700000000 /* codegen */ = {
-			isa = PBXGroup;
-			children = (
-				AC16C09F320A997600000000 /* ios-app */,
+				1A5C3656B54198EB00000000 /* ios-app */,
 			);
 			name = codegen;
 			sourceTree = "<group>";
 		};
-		AC16C09FA387BAF200000000 /* bazel */ = {
+		1A5C36562E5EFE5000000000 /* Lib-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				AC16C09F99DBCDB700000000 /* codegen */,
+				7629EEC90911E77F00000000 /* BUILD */,
+				1A5C3656F2EA38D800000000 /* Sources */,
+			);
+			name = "Lib-Swift";
+			sourceTree = "<group>";
+		};
+		1A5C36564C96AE2700000000 /* bazel */ = {
+			isa = PBXGroup;
+			children = (
+				1A5C3656088B620000000000 /* codegen */,
 			);
 			name = bazel;
 			sourceTree = "<group>";
 		};
-		AC16C09FBDE67ADD00000000 /* Indexer */ = {
+		1A5C365655FE6AE400000000 /* mainGroup */ = {
 			isa = PBXGroup;
 			children = (
-				CFE03E2BBAFCEC4600000000 /* Sources.framework */,
-			);
-			name = Indexer;
-			sourceTree = "<group>";
-		};
-		AC16C09FCC66C56400000000 /* mainGroup */ = {
-			isa = PBXGroup;
-			children = (
-				AC16C09FDF5EAAB100000000 /* Products */,
-				AC16C09F320A997600000001 /* ios-app */,
+				1A5C36562E5EFE5000000000 /* Lib-Swift */,
+				1A5C3656039B49A600000000 /* Products */,
+				1A5C3656B54198EB00000001 /* ios-app */,
 			);
 			name = mainGroup;
 			path = ..;
 			sourceTree = SOURCE_ROOT;
 		};
-		AC16C09FDEEBC48000000000 /* bazel-tulsi-includes */ = {
+		1A5C365676FBC94D00000000 /* ios-app-intermediates */ = {
 			isa = PBXGroup;
 			children = (
-				AC16C09FA387BAF200000000 /* bazel */,
+				7629EEC92F81659C00000000 /* Info.plist */,
+			);
+			name = "ios-app-intermediates";
+			sourceTree = "<group>";
+		};
+		1A5C36567793DDE400000000 /* bazel-tulsi-includes */ = {
+			isa = PBXGroup;
+			children = (
+				1A5C36564C96AE2700000000 /* bazel */,
 			);
 			name = "bazel-tulsi-includes";
 			sourceTree = "<group>";
 		};
-		AC16C09FDF5EAAB100000000 /* Products */ = {
+		1A5C365682405A4800000000 /* Indexer */ = {
 			isa = PBXGroup;
 			children = (
-				AC16C09FBDE67ADD00000000 /* Indexer */,
-				AC16C09FDEEBC48000000000 /* bazel-tulsi-includes */,
-				CFE03E2B23BBB51E00000000 /* ios-app-Bazel.app */,
+				7629EEC97828617A00000000 /* Lib_Swift.framework */,
+				7629EEC90FC35E6C00000000 /* Sources.framework */,
 			);
-			name = Products;
+			name = Indexer;
+			sourceTree = "<group>";
+		};
+		1A5C3656B54198EB00000000 /* ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				1A5C365676FBC94D00000000 /* ios-app-intermediates */,
+			);
+			name = "ios-app";
+			sourceTree = "<group>";
+		};
+		1A5C3656B54198EB00000001 /* ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				7629EEC9ED1D6DF200000000 /* AppDelegate.swift */,
+				7629EEC91FDD4E7A00000000 /* BUILD */,
+				1A5C3656CF476A8C00000000 /* Base.lproj */,
+				7629EEC92B41823700000000 /* Info.plist */,
+				7629EEC9C5BADD9C00000000 /* ViewController.swift */,
+			);
+			name = "ios-app";
+			sourceTree = "<group>";
+		};
+		1A5C3656CF476A8C00000000 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7629EEC912718D1F00000000 /* LaunchScreen.storyboard */,
+				7629EEC9C2B69E6400000000 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			sourceTree = "<group>";
+		};
+		1A5C3656F2EA38D800000000 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7629EEC9A0F19A4500000000 /* StringProvider.swift */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		96CE2A943AAD5CF200000000 /* _bazel_clean_ */ = {
+		BB3906B5641BAC9800000000 /* _swiftlint_ */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "\"/usr/local/bin/bazel\" \"bazel-bin\"";
-			buildConfigurationList = 2060303633A61C3B00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
-			buildPhases = (
-			);
-			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
-			buildWorkingDirectory = "${SRCROOT}/..";
-			dependencies = (
-			);
-			name = _bazel_clean_;
-			passBuildSettingsInEnvironment = 1;
-			productName = _bazel_clean_;
-		};
-		96CE2A9474CE266E00000000 /* _copy_paste_detector_ */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "\"/usr/local/bin/bazel\" \"bazel-bin\"";
-			buildConfigurationList = 2060303602871C5A00000000 /* Build configuration list for PBXLegacyTarget "_copy_paste_detector_" */;
-			buildPhases = (
-			);
-			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/cpd.sh";
-			buildWorkingDirectory = "${SRCROOT}/..";
-			dependencies = (
-			);
-			name = _copy_paste_detector_;
-			passBuildSettingsInEnvironment = 1;
-			productName = _copy_paste_detector_;
-		};
-		96CE2A94AEB0F13600000000 /* _swiftlint_ */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "\"/usr/local/bin/bazel\" \"bazel-bin\"";
-			buildConfigurationList = 20603036E03CB93300000000 /* Build configuration list for PBXLegacyTarget "_swiftlint_" */;
+			buildConfigurationList = 907DCE044F0045B100000000 /* Build configuration list for PBXLegacyTarget "_swiftlint_" */;
 			buildPhases = (
 			);
 			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/swiftlint.sh";
@@ -167,70 +176,184 @@
 			passBuildSettingsInEnvironment = 1;
 			productName = _swiftlint_;
 		};
+		BB3906B5CC1DA3DC00000000 /* _bazel_clean_ */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"/usr/local/bin/bazel\" \"bazel-bin\"";
+			buildConfigurationList = 907DCE048BBAEE4A00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
+			buildPhases = (
+			);
+			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
+			buildWorkingDirectory = "${SRCROOT}/..";
+			dependencies = (
+			);
+			name = _bazel_clean_;
+			passBuildSettingsInEnvironment = 1;
+			productName = _bazel_clean_;
+		};
+		BB3906B5F65B5CB600000000 /* _copy_paste_detector_ */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"/usr/local/bin/bazel\" \"bazel-bin\"";
+			buildConfigurationList = 907DCE047026CE3200000000 /* Build configuration list for PBXLegacyTarget "_copy_paste_detector_" */;
+			buildPhases = (
+			);
+			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/cpd.sh";
+			buildWorkingDirectory = "${SRCROOT}/..";
+			dependencies = (
+			);
+			name = _copy_paste_detector_;
+			passBuildSettingsInEnvironment = 1;
+			productName = _copy_paste_detector_;
+		};
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		426C395B744061C800000000 /* ios-app-Bazel */ = {
+		7581867A12899BFE00000000 /* ib-Swift-Lib_Swift-Bazel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2060303614E8706800000000 /* Build configuration list for PBXNativeTarget "ios-app-Bazel" */;
+			buildConfigurationList = 907DCE0481A2B37C00000000 /* Build configuration list for PBXNativeTarget "ib-Swift-Lib_Swift-Bazel" */;
 			buildPhases = (
-				373A608815F53A9300000000 /* ShellScript */,
+				BEBFBD2E4BFB514C00000001 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E489F6E93AAD5CF300000000 /* PBXTargetDependency */,
+				1A8F10E0CC1DA3DD00000000 /* PBXTargetDependency */,
+			);
+			name = "ib-Swift-Lib_Swift-Bazel";
+			productName = "ib-Swift-Lib_Swift-Bazel";
+			productReference = 7629EEC9A38A278C00000000 /* libib-Swift-Lib_Swift-Bazel.lo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7581867A45202D1A00000000 /* os-app-Sources-Bazel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907DCE04DC9E7F2D00000000 /* Build configuration list for PBXNativeTarget "os-app-Sources-Bazel" */;
+			buildPhases = (
+				BEBFBD2ED1B9D2A400000001 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8F10E0CC1DA3DD00000000 /* PBXTargetDependency */,
+			);
+			name = "os-app-Sources-Bazel";
+			productName = "os-app-Sources-Bazel";
+			productReference = 7629EEC99CD2695C00000000 /* libos-app-Sources-Bazel.lo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7581867A8BFDF54800000000 /* ios-app-Bazel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907DCE046C0651E300000000 /* Build configuration list for PBXNativeTarget "ios-app-Bazel" */;
+			buildPhases = (
+				BEBFBD2E287B431500000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8F10E0CC1DA3DD00000000 /* PBXTargetDependency */,
 			);
 			name = "ios-app-Bazel";
 			productName = "ios-app-Bazel";
-			productReference = CFE03E2B23BBB51E00000000 /* ios-app-Bazel.app */;
+			productReference = 7629EEC93BBA380600000000 /* ios-app-Bazel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		426C395B86FF069000000000 /* Sources */ = {
+		7581867AA124369E00000000 /* Lib_Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20603036AA0FB06E00000000 /* Build configuration list for PBXNativeTarget "Sources" */;
+			buildConfigurationList = 907DCE04388A463B00000000 /* Build configuration list for PBXNativeTarget "Lib_Swift" */;
 			buildPhases = (
-				F0F7177C0000000000000000 /* Sources */,
+				9F0530AB0000000000000000 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E489F6E93AAD5CF300000000 /* PBXTargetDependency */,
+				1A8F10E0CC1DA3DD00000000 /* PBXTargetDependency */,
+			);
+			name = Lib_Swift;
+			productName = Lib_Swift;
+			productReference = 7629EEC97828617A00000000 /* Lib_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7581867ABAD32A0800000000 /* ios-app-Sources-Bazel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907DCE04E8195AA900000000 /* Build configuration list for PBXNativeTarget "ios-app-Sources-Bazel" */;
+			buildPhases = (
+				BEBFBD2ED1B9D2A400000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8F10E0CC1DA3DD00000000 /* PBXTargetDependency */,
+			);
+			name = "ios-app-Sources-Bazel";
+			productName = "ios-app-Sources-Bazel";
+			productReference = 7629EEC96669FB0200000000 /* libios-app-Sources-Bazel.lo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7581867AD47ECCB200000000 /* Lib-Swift-Lib_Swift-Bazel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907DCE04613718AF00000000 /* Build configuration list for PBXNativeTarget "Lib-Swift-Lib_Swift-Bazel" */;
+			buildPhases = (
+				BEBFBD2E4BFB514C00000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8F10E0CC1DA3DD00000000 /* PBXTargetDependency */,
+			);
+			name = "Lib-Swift-Lib_Swift-Bazel";
+			productName = "Lib-Swift-Lib_Swift-Bazel";
+			productReference = 7629EEC91EF3F29E00000000 /* libLib-Swift-Lib_Swift-Bazel.lo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7581867AE5D471B000000000 /* Sources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907DCE04683A65F200000000 /* Build configuration list for PBXNativeTarget "Sources" */;
+			buildPhases = (
+				9F0530AB0000000000000001 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A8F10E0CC1DA3DD00000000 /* PBXTargetDependency */,
+				1A8F10E0A124369F00000000 /* PBXTargetDependency */,
 			);
 			name = Sources;
 			productName = Sources;
-			productReference = CFE03E2BBAFCEC4600000000 /* Sources.framework */;
+			productReference = 7629EEC90FC35E6C00000000 /* Sources.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		386662C7320A997600000000 /* Project object */ = {
+		79A29783B54198EB00000000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 1000;
 			};
-			buildConfigurationList = 2060303698A292CE00000000 /* Build configuration list for PBXProject "ios-app" */;
+			buildConfigurationList = 907DCE04D937DFCB00000000 /* Build configuration list for PBXProject "ios-app" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AC16C09FCC66C56400000000 /* mainGroup */;
+			mainGroup = 1A5C365655FE6AE400000000 /* mainGroup */;
 			targets = (
-				426C395B86FF069000000000 /* Sources */,
-				96CE2A943AAD5CF200000000 /* _bazel_clean_ */,
-				96CE2A9474CE266E00000000 /* _copy_paste_detector_ */,
-				96CE2A94AEB0F13600000000 /* _swiftlint_ */,
-				426C395B744061C800000000 /* ios-app-Bazel */,
+				7581867AD47ECCB200000000 /* Lib-Swift-Lib_Swift-Bazel */,
+				7581867AA124369E00000000 /* Lib_Swift */,
+				7581867AE5D471B000000000 /* Sources */,
+				BB3906B5CC1DA3DC00000000 /* _bazel_clean_ */,
+				BB3906B5F65B5CB600000000 /* _copy_paste_detector_ */,
+				BB3906B5641BAC9800000000 /* _swiftlint_ */,
+				7581867A12899BFE00000000 /* ib-Swift-Lib_Swift-Bazel */,
+				7581867A8BFDF54800000000 /* ios-app-Bazel */,
+				7581867ABAD32A0800000000 /* ios-app-Sources-Bazel */,
+				7581867A45202D1A00000000 /* os-app-Sources-Bazel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		373A608815F53A9300000000 /* ShellScript */ = {
+		BEBFBD2E287B431500000000 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -245,29 +368,101 @@
 			shellScript = "set -e\ncd \"${SRCROOT}/..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //ios-app:ios-app --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
 			showEnvVarsInLog = 1;
 		};
+		BEBFBD2E4BFB514C00000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\ncd \"${SRCROOT}/..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //Lib-Swift:Lib_Swift --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+			showEnvVarsInLog = 1;
+		};
+		BEBFBD2E4BFB514C00000001 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\ncd \"${SRCROOT}/..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //Lib-Swift:Lib_Swift --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+			showEnvVarsInLog = 1;
+		};
+		BEBFBD2ED1B9D2A400000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\ncd \"${SRCROOT}/..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //ios-app:Sources --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+			showEnvVarsInLog = 1;
+		};
+		BEBFBD2ED1B9D2A400000001 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\ncd \"${SRCROOT}/..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //ios-app:Sources --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+			showEnvVarsInLog = 1;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F0F7177C0000000000000000 /* Sources */ = {
+		9F0530AB0000000000000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				BFAD0EA2585B4A2300000000 /* AppDelegate.swift in ios-app */,
-				BFAD0EA207E4C70100000000 /* ViewController.swift in ios-app */,
+				89686175A0F19A4500000000 /* StringProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0530AB0000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				89686175ED1D6DF200000000 /* AppDelegate.swift in ios-app */,
+				89686175C5BADD9C00000000 /* ViewController.swift in ios-app */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E489F6E93AAD5CF300000000 /* PBXTargetDependency */ = {
+		1A8F10E0A124369F00000000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			targetProxy = F86D6E613AAD5CF300000000 /* PBXContainerItemProxy */;
+			targetProxy = 9FA3ACEAA124369F00000000 /* PBXContainerItemProxy */;
+		};
+		1A8F10E0CC1DA3DD00000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			targetProxy = 9FA3ACEACC1DA3DD00000000 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4FB5EF252F5AE43400000000 /* __TulsiTestRunner_Release */ = {
+		0C0A6AFF4579E12F00000000 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,7 +504,55 @@
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		4FB5EF252F5AE43400000001 /* __TulsiTestRunner_Release */ = {
+		0C0A6AFF4579E12F00000001 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Lib-Swift:Lib_Swift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "Lib-Swift-Lib_Swift";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "Lib-Swift";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		0C0A6AFF4579E12F00000002 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Lib-Swift:Lib_Swift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "ib-Swift-Lib_Swift";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "Lib-Swift";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		0C0A6AFF4579E12F00000003 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -334,73 +577,55 @@
 			};
 			name = __TulsiTestRunner_Release;
 		};
-		4FB5EF25358E207500000000 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "";
-				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(TULSI_BWRS) $(TULSI_WR)/bazel-bin $(TULSI_WR)/bazel-genfiles $(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen";
-				ONLY_ACTIVE_ARCH = YES;
-				PYTHONIOENCODING = utf8;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.3;
-				TULSI_BWRS = "${TULSI_WR}/tulsi-workspace";
-				TULSI_PROJECT = "ios-app";
-				TULSI_VERSION = 0.20200624.88;
-				TULSI_WR = "${SRCROOT}/..";
-			};
-			name = Debug;
-		};
-		4FB5EF25358E207500000001 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
-				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen/ ";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
-				PRODUCT_NAME = Sources;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		4FB5EF25358E207500000002 /* Debug */ = {
+		0C0A6AFF4579E12F00000004 /* __TulsiTestRunner_Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
-				BAZEL_TARGET = "//ios-app:ios-app";
+				BAZEL_TARGET = "//ios-app:Sources";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vinid.ios-app";
-				PRODUCT_NAME = "ios-app";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "ios-app-Sources";
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
 				TULSI_BUILD_PATH = "ios-app";
 				TULSI_XCODE_VERSION = 12.1.0.12A7403;
 			};
-			name = Debug;
+			name = __TulsiTestRunner_Release;
 		};
-		4FB5EF2587F78F1E00000000 /* Release */ = {
+		0C0A6AFF4579E12F00000005 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:Sources";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "os-app-Sources";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		0C0A6AFFAAEB3E1E00000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,19 +662,64 @@
 			};
 			name = Release;
 		};
-		4FB5EF2587F78F1E00000001 /* Release */ = {
+		0C0A6AFFAAEB3E1E00000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Lib-Swift:Lib_Swift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				PRODUCT_NAME = "Lib-Swift-Lib_Swift";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "Lib-Swift";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = Release;
+		};
+		0C0A6AFFAAEB3E1E00000002 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
 				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen/ ";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = Lib_Swift;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0C0A6AFFAAEB3E1E00000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen/ $(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen/Lib-Swift/Lib_Swift.modulemaps ";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen/Lib-Swift/Lib_Swift.modulemaps/module.modulemap";
 				PRODUCT_NAME = Sources;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
-		4FB5EF2587F78F1E00000002 /* Release */ = {
+		0C0A6AFFAAEB3E1E00000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Lib-Swift:Lib_Swift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "ib-Swift-Lib_Swift";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "Lib-Swift";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = Release;
+		};
+		0C0A6AFFAAEB3E1E00000005 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -466,7 +736,182 @@
 			};
 			name = Release;
 		};
-		4FB5EF2588F84A3700000000 /* __TulsiTestRunner_Debug */ = {
+		0C0A6AFFAAEB3E1E00000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:Sources";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "ios-app-Sources";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = Release;
+		};
+		0C0A6AFFAAEB3E1E00000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:Sources";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				PRODUCT_NAME = "os-app-Sources";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = Release;
+		};
+		0C0A6AFFC66C2BB600000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(TULSI_BWRS) $(TULSI_WR)/bazel-bin $(TULSI_WR)/bazel-genfiles $(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen";
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.3;
+				TULSI_BWRS = "${TULSI_WR}/tulsi-workspace";
+				TULSI_PROJECT = "ios-app";
+				TULSI_VERSION = 0.20200624.88;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = Debug;
+		};
+		0C0A6AFFC66C2BB600000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Lib-Swift:Lib_Swift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				PRODUCT_NAME = "Lib-Swift-Lib_Swift";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "Lib-Swift";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = Debug;
+		};
+		0C0A6AFFC66C2BB600000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen/ ";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = Lib_Swift;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C0A6AFFC66C2BB600000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen/ $(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen/Lib-Swift/Lib_Swift.modulemaps ";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(TULSI_BWRS)/bazel-tulsi-includes/bazel/codegen/Lib-Swift/Lib_Swift.modulemaps/module.modulemap";
+				PRODUCT_NAME = Sources;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C0A6AFFC66C2BB600000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Lib-Swift:Lib_Swift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "ib-Swift-Lib_Swift";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "Lib-Swift";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = Debug;
+		};
+		0C0A6AFFC66C2BB600000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:ios-app";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinid.ios-app";
+				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = Debug;
+		};
+		0C0A6AFFC66C2BB600000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:Sources";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "ios-app-Sources";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = Debug;
+		};
+		0C0A6AFFC66C2BB600000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:Sources";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				PRODUCT_NAME = "os-app-Sources";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = Debug;
+		};
+		0C0A6AFFFDA2354100000000 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -508,7 +953,55 @@
 			};
 			name = __TulsiTestRunner_Debug;
 		};
-		4FB5EF2588F84A3700000001 /* __TulsiTestRunner_Debug */ = {
+		0C0A6AFFFDA2354100000001 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Lib-Swift:Lib_Swift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "Lib-Swift-Lib_Swift";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "Lib-Swift";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		0C0A6AFFFDA2354100000002 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//Lib-Swift:Lib_Swift";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "ib-Swift-Lib_Swift";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "Lib-Swift";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		0C0A6AFFFDA2354100000003 /* __TulsiTestRunner_Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
@@ -525,6 +1018,54 @@
 				OTHER_SWIFT_FLAGS = "--version";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vinid.ios-app";
 				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		0C0A6AFFFDA2354100000004 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:Sources";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "ios-app-Sources";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 12.1.0.12A7403;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		0C0A6AFFFDA2354100000005 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:Sources";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "os-app-Sources";
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
@@ -536,53 +1077,101 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2060303602871C5A00000000 /* Build configuration list for PBXLegacyTarget "_copy_paste_detector_" */ = {
+		907DCE04388A463B00000000 /* Build configuration list for PBXNativeTarget "Lib_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0A6AFFC66C2BB600000002 /* Debug */,
+				0C0A6AFFAAEB3E1E00000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907DCE044F0045B100000000 /* Build configuration list for PBXLegacyTarget "_swiftlint_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2060303614E8706800000000 /* Build configuration list for PBXNativeTarget "ios-app-Bazel" */ = {
+		907DCE04613718AF00000000 /* Build configuration list for PBXNativeTarget "Lib-Swift-Lib_Swift-Bazel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FB5EF25358E207500000002 /* Debug */,
-				4FB5EF2587F78F1E00000002 /* Release */,
-				4FB5EF2588F84A3700000001 /* __TulsiTestRunner_Debug */,
-				4FB5EF252F5AE43400000001 /* __TulsiTestRunner_Release */,
+				0C0A6AFFC66C2BB600000001 /* Debug */,
+				0C0A6AFFAAEB3E1E00000001 /* Release */,
+				0C0A6AFFFDA2354100000001 /* __TulsiTestRunner_Debug */,
+				0C0A6AFF4579E12F00000001 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2060303633A61C3B00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
+		907DCE04683A65F200000000 /* Build configuration list for PBXNativeTarget "Sources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0A6AFFC66C2BB600000003 /* Debug */,
+				0C0A6AFFAAEB3E1E00000003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907DCE046C0651E300000000 /* Build configuration list for PBXNativeTarget "ios-app-Bazel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0A6AFFC66C2BB600000005 /* Debug */,
+				0C0A6AFFAAEB3E1E00000005 /* Release */,
+				0C0A6AFFFDA2354100000003 /* __TulsiTestRunner_Debug */,
+				0C0A6AFF4579E12F00000003 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907DCE047026CE3200000000 /* Build configuration list for PBXLegacyTarget "_copy_paste_detector_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2060303698A292CE00000000 /* Build configuration list for PBXProject "ios-app" */ = {
+		907DCE0481A2B37C00000000 /* Build configuration list for PBXNativeTarget "ib-Swift-Lib_Swift-Bazel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FB5EF25358E207500000000 /* Debug */,
-				4FB5EF2587F78F1E00000000 /* Release */,
-				4FB5EF2588F84A3700000000 /* __TulsiTestRunner_Debug */,
-				4FB5EF252F5AE43400000000 /* __TulsiTestRunner_Release */,
+				0C0A6AFFC66C2BB600000004 /* Debug */,
+				0C0A6AFFAAEB3E1E00000004 /* Release */,
+				0C0A6AFFFDA2354100000002 /* __TulsiTestRunner_Debug */,
+				0C0A6AFF4579E12F00000002 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		20603036AA0FB06E00000000 /* Build configuration list for PBXNativeTarget "Sources" */ = {
+		907DCE048BBAEE4A00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FB5EF25358E207500000001 /* Debug */,
-				4FB5EF2587F78F1E00000001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		20603036E03CB93300000000 /* Build configuration list for PBXLegacyTarget "_swiftlint_" */ = {
+		907DCE04D937DFCB00000000 /* Build configuration list for PBXProject "ios-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
+				0C0A6AFFC66C2BB600000000 /* Debug */,
+				0C0A6AFFAAEB3E1E00000000 /* Release */,
+				0C0A6AFFFDA2354100000000 /* __TulsiTestRunner_Debug */,
+				0C0A6AFF4579E12F00000000 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907DCE04DC9E7F2D00000000 /* Build configuration list for PBXNativeTarget "os-app-Sources-Bazel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0A6AFFC66C2BB600000007 /* Debug */,
+				0C0A6AFFAAEB3E1E00000007 /* Release */,
+				0C0A6AFFFDA2354100000005 /* __TulsiTestRunner_Debug */,
+				0C0A6AFF4579E12F00000005 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		907DCE04E8195AA900000000 /* Build configuration list for PBXNativeTarget "ios-app-Sources-Bazel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C0A6AFFC66C2BB600000006 /* Debug */,
+				0C0A6AFFAAEB3E1E00000006 /* Release */,
+				0C0A6AFFFDA2354100000004 /* __TulsiTestRunner_Debug */,
+				0C0A6AFF4579E12F00000004 /* __TulsiTestRunner_Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 386662C7320A997600000000 /* Project object */;
+	rootObject = 79A29783B54198EB00000000 /* Project object */;
 }
