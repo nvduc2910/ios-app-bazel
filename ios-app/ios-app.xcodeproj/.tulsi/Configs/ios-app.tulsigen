@@ -1,0 +1,16 @@
+{
+  "additionalFilePaths" : [
+    "ios-app/BUILD"
+  ],
+  "buildTargets" : [
+    "//ios-app:ios-app"
+  ],
+  "optionSet" : {
+
+  },
+  "projectName" : "ios-app",
+  "sourceFilters" : [
+    "ios-app/...",
+    "ios-app/Base.lproj"
+  ]
+}
